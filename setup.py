@@ -9,5 +9,8 @@ setup(
         'Pygments',
         'setproctitle',
     ],
+    scripts=[
+        'scripts/hiho-samestring.py',
+    ],
     author='Kazuyuki Hiroshiba',
 )
