@@ -14,8 +14,3 @@ def except_hook_pygments(type, value, tb):
 
 
 sys.excepthook = except_hook_pygments
-
-# set process name
-from setproctitle import setproctitle
-
-setproctitle("hiroshiba's")
